@@ -1,0 +1,14 @@
+  760  cd ../..
+  761  mkdir git-and-github
+  762  cd git-and-github
+  763  git init
+  764  touch readme.md ignore_me.txt .gitignore
+  765  echo ignore_me.txt > .gitignore
+  766  git status
+  767  git add .gitignore
+  768  git commit -m "added gitignore"
+  769  git add .
+  770  git commit -m "added readme and ignoreme"
+  771  git remote add origin https://github.com/mattpitts/git-and-github.git
+  772  git push origin master
+  773  cd ~/workspace/git-and-github-basics-assessment/src
